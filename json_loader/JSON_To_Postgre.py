@@ -14,7 +14,7 @@ import os
 conn = postgre.connect(dbname="Project1",
                         host="localhost",
                         user="postgres",
-                        password="peter",
+                        password="1234",
                         port="5432")
 
 cursor = conn.cursor()
